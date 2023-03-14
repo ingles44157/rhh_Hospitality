@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome-Home Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- slick Css -->
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/RHH_style.css">
+    <link rel="stylesheet" href="css/RHH_responsive.css">
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="header-menu d-flex align-items-center">
+            <a class="me-auto" href="default.html">
+                <img class="logo" src="./images/Home/logo.png" alt="RHH_hosp logo">
+            </a>
+            <nav id="nav_header" role='navigation'>
+                <div id="menuToggle">
+                    <div class="toggle-spanBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul id="menu">
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Featured Dish</a></li>
+                        <li><a href="#">Our Chefs</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="slot_icon">
+                <a href="" class="lang_icon">
+                    <img src="./images/Home/Ar_language.png" alt="language">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======= Banner Section ======= -->
+    <section class="banner-section">
+        <div class="other-slider">
+            <div class="banner_Img">
+                <img src="./images/Cart/banner.jpg" class="img-fluid" alt="">
+                <div class="banner_Txt">
+                    <h2>cart</h2>
+                    <ul class="breadcrum">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Banner Section End======= -->
+
+    <!-- ======= Main ======= -->
+    <main id="main">
+        <!-- ======= Menu_Section ======= -->
+        <section class="menu_Sec pb-0">
+            <div class="cartOuter_slot">
+                <form class="cart-form" action="">
+                    <table class="cart_pading" cellspacing="0">
+                        <thead class="cart_label">
+                            <tr>
+                                <th class="product-remove"></th>
+                                <th class="product-name">Dish</th>
+                                <th class="product-price">Price</th>
+                                <th class="product-quantity">Quantity</th>
+                                <th class="product-subtotal">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody class="cart_label">
+                            <tr>
+                                <td class="product-remove">
+                                    <a href="" class="remove">X</a>
+                                </td>
+                                <td class="product-name">ROYALE ORIENTAL BREAKFAST</td>
+                                <td class="product-price">K.D 5.500</td>
+                                <td class="product-quantity">
+                                    <span class="quantity-minus"></span>
+                                    <input type="text" class="quantity-input" name="" id="" value="3">
+                                    <span class="quantity-plus"></span>
+                                </td>
+                                <td class="product-subtotal">
+                                    K.D 5.500
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <button type="submit" class="rhh_button" value="Update cart" disabled="" aria-disabled="true">
+                    <span class="border--top-left"></span>
+                    <span class="border--bottom-right"></span>
+                    <span class="btn-text">Update cart</span>
+                </button>
+            </div>
+            <div class="orderOuter_slot totalDIV">
+                <h2 class="menu_title">Cart Total</h2>
+                <div class="cartOuter_slot py-3">
+                    <form class="cart-form" action="">
+                        <table class="cart_pading" cellspacing="0">
+                            <thead class="cart_label">
+                                <tr class="cart-subtotal">
+                                    <th style="width: 20%;">Subtotal</th>
+                                    <th class="product-price">
+                                        <span class="amount">K.D 5.500</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart_label">
+                                <tr class="order-total">
+                                    <td style="width: 20%;">Total</td>
+                                    <td class="product-price">K.D 5.500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                    <button type="submit" class="rhh_button float-start" value="Order" disabled="" aria-disabled="true">
+                        <span class="border--top-left"></span>
+                        <span class="border--bottom-right"></span>
+                        <span class="btn-text">Order</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ======= Menu_Section_End ======= -->
+    </main>
+    <!-- ======= Main End======= -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="row m-0">
+                <div class="col-lg-7 col-md-7 c0l-sm-12 p-0 contact-Img">
+                    <img class="img-fluid" src="./images/Home/contact.jpg" alt="" style="height: 100%;">
+                </div>
+                <div class="col-lg-5 col-md-5 c0l-sm-12 p-0">
+                    <div class="contact-Txt">
+                        <div class="contact_slot">
+                            <h3>Contact Us:</h3>
+                            <p>RHH Hospitality, Lorem ipsum, P.O. Box: 12345, Kuwait</p>
+                            <p>Phone: +965 1234 5678</p>
+                            <p>Email: info@loremipsum.com</p>
+                        </div>
+                        <div class="working_slot">
+                            <h3>Working Hours:</h3>
+                            <p>Open: 9:00 am - 1:00 pm</p>
+                            <p>Weekend: 10:00 am - 1:00 am</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer_logo">
+                <img class="img-fluid" width="90" src="./images/Home/footer-logo.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>RHH Hospitality © 2022</p><span>|</span><span>Created by <img style="margin-left: 5px;" src="./images/Home/footer-igrouplogo.png" width="38" height="12" alt=""></span>
+            </div>
+            <a href="#" class="upper-icon">
+                <span class="bottom-to-top-icon">
+                <span class="bottom-to-top-ellipse">
+                <span class="upper-txt">Top</span>
+                <span class="upper-ellipse">
+                    <svg class="svg-bottom-to-top btn-ellipse"  x="0px" y="0px" width="86.5px" height="51.5px">
+                        <path fill="none" stroke="currentColor" stroke-linecap="butt" stroke-linejoin="miter" d="M40.739,2.418 C64.173,-2.878 84.182,3.163 85.430,15.911 C86.679,28.658 68.694,43.285 45.261,48.581 C21.827,53.876 1.818,47.834 0.569,35.087 C-0.679,22.339 17.305,7.713 40.739,2.418 Z"></path>
+                        <path fill="none" stroke="currentColor" stroke-linecap="butt" stroke-linejoin="miter" d="M40.739,2.418 C64.173,-2.878 84.182,3.163 85.430,15.911 C86.679,28.658 68.694,43.285 45.261,48.581 C21.827,53.876 1.818,47.834 0.569,35.087 C-0.679,22.339 17.305,7.713 40.739,2.418 Z"></path>
+                    </svg>
+                </span>
+                </span>
+                </span>
+            </a>
+        </div>
+    </footer>
+    <!-- ======= Footer End======= -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js file -->
+    <script src="js/script.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/jquery.izoomify.js "></script>
+    <!-- slick js file -->
+    <script src="js/slick-1.8.1/slick/slick.js "></script>
+</body>
+
+</html>

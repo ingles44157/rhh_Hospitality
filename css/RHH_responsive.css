@@ -1,0 +1,175 @@
+@media (min-width: 1400px) {
+    p {
+        font-size: 16px;
+    }
+    .spa_outerTitle a.view_btn {
+        margin-right: 115px;
+    }
+}
+
+@media (max-width: 769px) {
+    /* Default */
+    #header .header-menu {
+        padding: 8px 30px 8px 30px;
+    }
+    .catalogDiv {
+        padding: 0 20px;
+    }
+    .spa_outerTitle h2.menu_title {
+        width: auto;
+    }
+    .catalogDiv img {
+        width: 100%;
+    }
+    .spa_outerTitle p {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    /* About */
+    .other-slider .banner_Img .banner_Txt {
+        bottom: 5px;
+        padding: 0 30px;
+    }
+    .other-slider .banner_Txt h2 {
+        font-size: 32px;
+    }
+    h2.about_title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Default */
+    #header .header-menu {
+        padding: 8px 25px 8px 15px;
+    }
+    h4.menu_h4 {
+        padding: 0 10px;
+    }
+    h2.menu_title {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+    .catalogDiv {
+        padding: 0 10px;
+    }
+    .spa_outerTitle a.view_btn {
+        margin-right: 20px;
+    }
+    .amenities-links {
+        margin-bottom: 20px;
+    }
+    img.logo {
+        width: 100px;
+    }
+    .about_chef h2.menu_title {
+        margin-bottom: 20px;
+    }
+    .banner_Title {
+        bottom: -10px;
+        width: 410px;
+        left: 10px;
+    }
+    .banner_Title h4 {
+        font-size: 28px;
+    }
+    .banner-slider button.slick-next,
+    .banner-slider button.slick-prev {
+        width: 100px;
+    }
+    .banner-slider button.slick-next:after,
+    .banner-slider button.slick-prev:after {
+        width: 85px;
+    }
+    .banner-slider button.slick-prev:hover::after,
+    .banner-slider button.slick-next:hover::after {
+        width: 75px;
+    }
+    section.banner-section #rightCount {
+        right: 65px;
+    }
+    section.banner-section #leftCount {
+        left: 65px;
+    }
+    /* About */
+    .other-slider .banner_Img .banner_Txt {
+        bottom: 0px;
+        padding: 0 20px;
+    }
+    .other-slider .banner_Txt h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    h2.about_title {
+        padding: 0 10px;
+    }
+    .testimonial-blog {
+        padding: 70px 10px 30px;
+    }
+    /* Menu */
+    .sub_attributes {
+        display: block;
+    }
+    .sub_attributes h3 {
+        font-size: 14px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .sub_attributes span {
+        width: 0px;
+        margin-top: 5px;
+    }
+    .sub_attributes ul {
+        line-height: 1;
+    }
+    .sub_attributes ul li {
+        font-size: 14px;
+    }
+    /* Cart */
+    .cartOuter_slot {
+        padding: 0 10px;
+    }
+    th.product-name,
+    td.product-name {
+        padding-left: 30px;
+    }
+    td.product-remove {
+        border-bottom: 0px !important;
+    }
+    .cart_label tr td {
+        padding-right: 20px;
+    }
+    .cart-subtotal th {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 429px) {
+    h2.menu_title {
+        font-size: 22px;
+    }
+    .spa_outerTitle a.view_btn {
+        margin-right: 0px;
+        float: initial;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .spa_outerTitle a.view_btn+a {
+        margin: 0;
+    }
+    .spa_outerTitle .catalogDiv {
+        margin-top: 20px;
+    }
+    span.booking_txt {
+        font-size: 14px;
+        padding-left: 20px;
+        float: inherit;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 361px) {
+    h2.menu_title {
+        font-size: 22px;
+    }
+}
